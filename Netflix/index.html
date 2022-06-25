@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--Todos los documentos de HTML deben empezas con esta declaración-->
+<html  lang="es">
+<!--Define el lenguaje de un elemento-->
+<head>
+	<!--El elemento HTML head provee información general (metadatos) acerca del
+	documento, incluyendo su título y enlaces a scripts y hojas de estilos. -->
+	<meta charset="UTF-8">
+	<!--el elemento meta está destinado a indicar la codificación de caracteres
+	utilizada (charset)-->
+	<title>Netflix de Lizeth Mendoza</title>
+	<!--El elemento title simboliza el titulo-->
+	<link rel="stylesheet" href="css/index.css"/>
+	<!--El elemento link permite vincular el documento con otros recursos-->
+	<link rel="icon" type="image/png" href="images/N.png"/>
+</head>
+<!-- Etiqueta de cierre del elemento head-->
+<body>
+	<!--El elemento body de HTML representa el contenid ode un documento
+	HTML. Solo puede haber un elmeento body en un documento.-->
+	<header class="header navigate-color" id="navigate">
+	<!--El elemento header no es contenido de seccion y por tanto, no introduce
+	una nueva sección en descripción.-->
+		<div class="contenedor"> 
+			<!--class sirve para seleccionar elementos especificos-->
+			<div class="banner">
+				<!--La etiqueta div define una división o una sección en un 
+				documento HTML, que entonces es estilizado o manipulado con 
+				CSS o Javascript. Es facilmente estilizable usando un class 
+				o un atributo ID. -->
+				<li>
+				<!--La etiqueta li es usada para especificar un elemento de manera 
+				ordenada, desordenada, un dictorio o una lista-->
+				<!-- El elemento i del inglés item list o elemento de lista 
+				declara cada uno de los elementos de una lista. -->
+					<a href="">
+					<!--a es un hipervinculo-->
+					<img src="images/Netflix-logo.png" width="93" height="33">
+					<!--Imagen, fuente de la imagen-->
+					</a>
+					<!-- Es una etiqueta de cierre de a-->
+				</li>
+				<li>
+					<a href=""><span class="white">Inicio</span></a>
+				</li>
+				<li>
+					<a href="">Programas de TV</a>
+				</li>
+				<li>
+					<a href="">Películas</a>
+				</li>
+				<li>
+					<a href="">Agregados recientemente</a>
+				</li>
+				<li>
+				<!--Enlistar elementos, list items-->
+					<a href="">Mi lista</a>
+				</li>
+			</div>
+			<div class="banner-2">
+				<li>
+					<i id="searchIcon" class="icon-search"></i>
+					<!---->
+					<form id="form" class="search-form">
+            			<span class="icon-search"></span> <input id="inputForm" autofocus type="text" name="name" placeholder="Títulos, Personas, Géneros"/>
+         		    </form>
+				</li>
+				<li>
+					<!--El elemento anchor con su atributo ahref crea un hipervinculo
+					a paginas web, archivos, direcciones email, localizaciones 
+					en la misma página, o cualquier otra cosa que una url pueda 
+					contener. El contenido dentro de cada a es la destinacion-->
+					<a href="">niños</a>
+				</li>
+				<li>
+					<a href="" id="bell"><span class="icon-bell"></span></a>
+					<!--Es el ícono de campana -->
+				</li>
+				<li>
+					<a href="">perfil</a>
+				</li>
+			</div>
+		</div>
+	</header>
+	<section class="background">
+		<div class="video-container" id="video-container">
+			<video 
+				src="videos/miss-americana.mp4" type="video/mp4" id="video" poster="images/background3.jpg" >
+			</video>
+		</div>
+		<div class="descripcion contenedor-descrip">
+			<div class="info">
+				<h2>Original de <span class="netflix">Netflix</span></h2>
+				<h1>Miss<br><span class="title-h1">Americana</span></h1>
+				<button class="button">Reproducir</button>
+				<button class="button">+ Mi lista</button>
+			</div>
+			<p>
+			En este revelador documental, Taylor Swift asume plenamente su rol 
+			de compositora y artista, y deja en evidencia su capacidad de 
+			expresarse sin mordanza.
+			</p>
+		</div>
+	</section>
+	<section class="playlist">
+
+
+		<div class= "playlist-contenedor">
+    		<h2 class="playlist-title contenedor">Acción</h2>
+    		<div class="playlist-list" id="action">
+				<img src="images/stranger-things.jpg" width="244" height="137">
+    		</div>
+    		<div class="margin"></div>
+  		</div>
+
+		
+		<div class= "playlist-contenedor ">
+	   		<h2 class="playlist-title contenedor">Fantasia</h2>
+	   		<div class="playlist-list" id="fantasy">
+				<img src="images/castillo-vagabundo.jpg" width="244" height="137">
+	   		</div>
+	   		<div class="margin"></div>
+  		</div>
+  		
+
+  		<div class= "playlist-contenedor ">
+    		<h2 class="playlist-title contenedor">Romance</h2>
+    		<div class="playlist-list" id="romance">
+				<img src="images/las-ventajas-de-ser-invisible.jpg" width="244" height="137">
+    		</div>
+    		<div class="margin"></div>
+  		</div>
+
+
+  		<div class= "playlist-contenedor ">
+    		<h2 class="playlist-title contenedor">Horror</h2>
+    		<div class="playlist-list" id="horror">
+				<img src="images/calle-terror.jpg" width="244" height="137">
+    		</div>
+    		<div class="margin"></div>
+  		</div>
+		
+
+	</section>
+	<footer>
+		<div class="footer-content">
+			<div class="social">
+					<a href="https://www.facebook.com/lizeth.mendozaa.90" target="_blank"><span class="icon-facebook"></span></a>
+					<a href="https://www.instagram.com/liz.mendozaaa/" target="_blank"><span class="icon-instagram2"></span></a>
+					<a href=https://twitter.com/darkkkeyes target="_blank"><span class="icon-twitter2"></span></a>
+					<a href=https://youtube.com/channel/UCjdHMYD8XZSRhSEZlx8eDpQ target="_blank"><span class="icon-youtube"></span></a>
+			</div>
+
+			<div class="links">
+				<div class="item">
+					<li>Audio y subtítulos
+					<li>Prensa</li>
+					<li>Privacidad</li>
+					<li>Contáctanos</li>
+				</div>
+				<div class="item">
+					<li>Audio descriptivo</li>
+					<li>Relaciones con inversionistas</li>
+					<li>Avisos legales</li>
+				</div>
+				<div class="item">
+					<li>Centro de ayuda</li>
+					<li>Empleo</li>
+					<li>Preferencias de cookies</li>
+				</div>
+				<div class="item">
+					<li>Tarjetas de regalo</li>
+					<li>Términos de uso</li>
+					<li>Informacion corporativa</li>
+				</div>
+			</div>
+			<button class="footer-button">Código de servicio</button>
+			<li>@ 1997 - 2022 Netflix, Inc</li>
+		</div>
+	</footer>
+	  <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script-->
+	<!--script src="Js/home.js"></script--> 
+</body>
+</html>
