@@ -8,3 +8,8 @@
 // si el promedio es mayor que 8 vamos a retornar un mensaje que diga "Casi, casi"
 // Si el promedio es mayor que 6 pero menor que 8, retornamos mensaje que diga "Hay que ponerle mas ganas"
 // Si el resultado es menor que 6 retornamos mensaje que diga "No pasaste el grado"
+const philosophy = parseFloat(prompt("What was your grade in philosophy?"))
+const maths = parseFloat(prompt("What was your grade in maths?"))
+const literature = parseFloat(prompt("What was your grade in literature?"))
+const psychology = parseFloat(prompt ("What was your grade in psychology?"))
+const laws = parseFloat(prompt ("What was your grade in laws?"))
