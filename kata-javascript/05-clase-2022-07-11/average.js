@@ -13,3 +13,7 @@ const maths = parseFloat(prompt("What was your grade in maths?"))
 const literature = parseFloat(prompt("What was your grade in literature?"))
 const psychology = parseFloat(prompt ("What was your grade in psychology?"))
 const laws = parseFloat(prompt ("What was your grade in laws?"))
+const averageFunction = (philosophy, maths, literature, psychology, laws) => {  
+    const average = philosophy + maths + literature + philosophy + laws
+    console.log(average)
+}
